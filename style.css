@@ -15,3 +15,38 @@ h1 {
     text-align: center;
     font-size: 3rem;
 }
+
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}
+
+button {
+    padding: 1em 1.5em;
+    font-size: 1em;
+    background: #bb3735;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a02c2a;
+}
+
+.yes {
+    background: #0dc972;
+}
+
+.yes:hover {
+    background: #099855;
+}
